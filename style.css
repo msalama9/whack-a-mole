@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid {
+  width: 606px;
+  height: 606px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border: solid black;
+}
+
+.mole {
+  background-image: url("mole.jpg");
+  background-size: cover;
+  z-index: 1;
+}
